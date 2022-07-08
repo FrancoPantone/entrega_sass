@@ -1,0 +1,22 @@
+.card {
+	color: white;
+	background-color: #ffe17e00;
+}
+h2 {
+	color: white;
+}
+.discografia {
+	background-image: url(../../img/banda.jpg);
+	background-position: center;
+	background-size: cover;
+}
+body {
+	background-color: #ffe17e;
+}
+h1.animate__animated.animate__fadeIn {
+	animation-duration: 5s;
+}
+p.animate__animated.animate__fadeIn {
+	animation-duration: 5s;
+	animation-delay: 1s;
+}

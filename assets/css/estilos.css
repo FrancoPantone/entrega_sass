@@ -1,0 +1,114 @@
+
+header {
+    position: relative;
+    background-color: #ffe17e;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    visibility: visible;
+  
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+h1.animate__animated.animate__fadeIn{
+  animation-duration: 5s;
+
+}
+
+p.animate__animated.animate__fadeIn{
+  animation-duration: 5s;
+  animation-delay: 1s;
+
+}
+
+body{
+  background-color: #ffe17e;
+}
+
+#miFooter {
+    background-color: rgb(53, 52, 52);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+   
+}
+
+#miFooter.dropdown-menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+#miFooter i {
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn.btn-secondary a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn.btn-secondary a:hover{
+  color:rgb(255, 217, 0)
+}
+.discografia{
+   background-image: url(../../img/banda.jpg);
+   background-position:center;
+   background-size: cover;
+
+}
+
+.btn-secondary.dropdown-toggle{
+  color:rgb(53, 52, 52);
+  font-weight: bold;
+  background-color: #ffe17e ;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.card {
+  color: white;
+  
+  background-color: #ffe17e00;
+}
+
+h2 {
+  color:white;
+  
+}
